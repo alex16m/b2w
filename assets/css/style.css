@@ -225,6 +225,18 @@ iframe {
     text-rendering: optimizeLegibility;
 }
 
+#instructor .num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instructor .num span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+}
+
 /*======== Custom Icon Sprites============*/
 i.ci {
     display: inline-block;
