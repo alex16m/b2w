@@ -125,6 +125,7 @@ blockquote::before {
     display: none;
 }
 
+
 /*===========Hero ===============*/
 #hero {
     background: url("../img/hero-bg.jpg") 50% 0 repeat fixed;
