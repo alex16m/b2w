@@ -397,3 +397,11 @@ i.ci {
         font-size: 15px;
     }
 }
+
+@media screen and width ( max-width: 456px ) {
+    #instructor .num {
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+    }
+}
