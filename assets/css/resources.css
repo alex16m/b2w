@@ -1,0 +1,29 @@
+.main-content {
+    padding: 40px 0;
+}
+
+.resource {
+    width: 31.33333333%;
+    float: left;
+    margin: 0 3% 40px 0;
+}
+
+.resource:nth-child(3n){
+    margin-right: 0;
+}
+
+@media screen and (max-width : 768px){
+    .resource {
+        width: 40%;
+        margin-right: 2%:
+        min-height: 800px;
+    }
+}
+
+@media screen and ( max-width : 568px ){
+    .resource{
+        width: 100%;
+        margin-right: 0;
+        min-height: 0;
+    }
+}
